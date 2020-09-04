@@ -1,0 +1,5 @@
+.vscode/
+.pytest_cache/
+py3.8/
+__pycache__
+media/
