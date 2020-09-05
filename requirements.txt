@@ -3,3 +3,4 @@ Pillow==7.2.0
 celery==4.4.7
 gevent==20.6.2  # To make Celery work on Windows
 flower==0.9.5
+braintree==4.3.0
