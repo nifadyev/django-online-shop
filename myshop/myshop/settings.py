@@ -147,3 +147,5 @@ BRAINTREE_CONF = braintree.Configuration(
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
