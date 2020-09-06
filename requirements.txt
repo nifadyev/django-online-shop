@@ -6,3 +6,4 @@ flower==0.9.5
 braintree==4.3.0
 WeasyPrint==51
 django-rosetta==0.9.4
+django-parler==2.2
