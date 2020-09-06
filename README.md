@@ -18,3 +18,5 @@ celery -A myshop flower is still not working
 # How to set up WeasyPrint on Windows
 
 https://weasyprint.readthedocs.io/en/stable/install.html#gtk64installer
+
+Translation requires gettext, use this https://mlocati.github.io/articles/gettext-iconv-windows.html instruction for Windows

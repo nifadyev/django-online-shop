@@ -5,3 +5,4 @@ gevent==20.6.2  # To make Celery work on Windows
 flower==0.9.5
 braintree==4.3.0
 WeasyPrint==51
+django-rosetta==0.9.4
