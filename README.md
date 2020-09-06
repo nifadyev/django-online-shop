@@ -14,3 +14,7 @@ pip install gevent
 celery -A myshop worker -l info -P gevent
 
 celery -A myshop flower is still not working
+
+# How to set up WeasyPrint on Windows
+
+https://weasyprint.readthedocs.io/en/stable/install.html#gtk64installer
