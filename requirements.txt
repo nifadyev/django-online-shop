@@ -8,3 +8,4 @@ WeasyPrint==51
 django-rosetta==0.9.4
 django-parler==2.2
 django-localflavor==3.0.1
+redis==3.5.3
