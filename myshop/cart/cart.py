@@ -50,7 +50,7 @@ class Cart():
         self.save()
 
     def save(self):
-        # mark the session as "modified" to make sure it gets saved
+        """Mark the session as "modified" to make sure it gets saved."""
         self.session.modified = True
 
     def remove(self, product):
@@ -61,7 +61,7 @@ class Cart():
             self.save()
 
     def clear(self):
-        # remove cart from session
+        """Remove cart from session."""
         del self.session[settings.CART_SESSION_ID]
         self.save()
 
