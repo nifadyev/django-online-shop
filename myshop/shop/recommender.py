@@ -9,8 +9,8 @@ r = redis.Redis(host=settings.REDIS_HOST, port=settings.REDIS_PORT, db=settings.
 
 class Recommender(object):
 
-    def get_product_key(self, id):
-        return f'product:{id}:purchased_with'
+    def get_product_key(self, product_id):
+        return f'product:{product_id}:purchased_with'
 
     def products_bought(self, products):
         product_ids = tuple(p.id for p in products)

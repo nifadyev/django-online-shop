@@ -18,7 +18,3 @@ class ProductAdmin(TranslatableAdmin):
 
     def get_prepopulated_fields(self, _request, _obj=None):
         return {'slug': ('name',)}
-
-
-# admin.site.register(Category, CategoryAdmin)
-# admin.site.register(Product, ProductAdmin)

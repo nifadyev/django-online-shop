@@ -13,9 +13,9 @@
       <li {% if not category %}class="selected"{% endif %}>
         <a href="{% url "shop:product_list" %}">{% trans "All" %}</a>
       </li>
-      {% for c in categories %}
-        <li {% if category.slug == c.slug %}class="selected"{% endif %}>
-          <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+      {% for current_category in categories %}
+        <li {% if category.slug == current_category.slug %}class="selected"{% endif %}>
+          <a href="{{ current_category.get_absolute_url }}">{{ current_category.name }}</a>
         </li>
       {% endfor %}
     </ul>
